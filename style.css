@@ -1,0 +1,173 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital@1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    /* overflow: hidden; */
+  
+  
+}
+body{
+background-color: #4c4177;
+background-image: linear-gradient(315deg, #4c4177 0%, #2a5470 74%);
+}
+h2{
+  font-family: "Ubuntu", sans-serif;
+text-align: center;
+color:#1e90ff;
+font-size: 42px;
+margin-top: 50px;
+}
+.container{
+max-width: 450px;
+background-color: rgba(0, 0, 0, 0.6);
+margin: 120px auto;
+border-radius: 10px;
+padding: 15px 20px;
+text-align: center;
+    font-family: 'Poppins', sans-serif;
+
+
+}
+
+.container form input[type=text],input[type=email]{
+  width: 80%;
+    margin: 10px 0px;
+    height: 40px;
+    padding: 0px 10px;
+    background: transparent;
+    outline: none;
+    border: 1px solid rgb(0, 140, 255);
+    border-radius: 3px;
+    font-family: 'Poppins', sans-serif;
+
+}
+.container form  textarea{
+    width: 80%;
+    margin: 10px 0px;
+    height: 80px;
+    padding: 0px 10px;
+    background: transparent;
+    outline: none;
+    border: 1px solid rgb(0, 140, 255);
+    border-radius: 3px;
+resize: none;
+    font-family: 'Poppins', sans-serif;
+    color: #fff;
+   
+
+}
+#save{
+   
+    font-weight: 600;
+}
+#anchor{
+    font-weight: 600;
+pointer-events: none;
+
+}
+.container form .btn-section{
+
+    width: 80%;
+    display: flex;
+    justify-content: space-around;
+    margin: 0px auto;
+}
+
+.container form .btn-section input{
+    background-color: rgb(0, 140, 255);
+    border: none;
+    outline: none;
+    padding: 7px 15px;
+    border-radius: 4px;
+    color: #fff;
+    text-decoration: none;
+    transition: .3s linear;
+    cursor: pointer;
+    border: 1px solid rgb(0, 140, 255);
+    font-size: 15px;
+
+
+    
+}
+.container form .btn-section a{
+     background-color: none;
+    border: none;
+    outline: none;
+    padding: 7px 15px;
+    border-radius: 4px;
+    color: #fff;
+    text-decoration: none;
+    transition: .3s linear;
+    cursor: pointer;
+    border: 1px solid rgb(0, 140, 255);
+    font-size: 15px;
+}
+
+.container form .btn-section a.active{
+    background-color: rgb(0, 140, 255);
+
+}
+
+.container form .btn-section input:hover{
+   background: none;
+    color: rgb(0, 140, 255);
+}
+.container form .btn-section a:hover{
+    background: none;
+    color: rgb(0, 140, 255);
+}
+
+
+
+input{
+    color: #fff;
+}
+
+
+footer{
+    background-color: #111;
+width: 100%;
+    position: absolute;
+    bottom: 0px;
+padding: 10px  14px;
+}
+footer .foot p{
+  text-align: center;
+  color: #fff;
+}
+footer .social-icons {
+    text-align: center;
+    margin-top: 8px;
+}
+footer .social-icons i{
+color: #fff;
+margin-left: 8px;
+font-size: 20px;
+}
+
+@media only screen and (max-width:947px)
+{
+    .container{
+max-width: 400px;
+    
+
+        margin-top: 100px;
+    }
+}
+
+@media only screen and (max-width:500px){
+    
+    .container{
+
+    margin: 30px;
+        margin-top: 100px;
+
+     
+    }
+    h2{
+font-size: 28px;
+}
+}
